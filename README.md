@@ -1,35 +1,40 @@
 # HubHazard - Basic Template
 
-This is a basic template of the [HubHazard server][hubhazardcore] project. You can quickly create a new repo out of it
-and start having fun with [HubHazard][hubhazardcore].This basic template contains basic automation examples.
+This is a basic template of the [HubHazard server][hubhazardcore] project. You
+can quickly create a new repo out of it and start having fun with
+[HubHazard][hubhazardcore].
 
-There are 2 branches available:
+There are 2 versions of this template available on different branches:
 
-- `master` - contains a set of basic automations examples to get you started faster.
-- `clean` - contains only one dummy automation to give you a clean slate.
+- `master` - contains a set of automations as examples to get you started faster.
+- `clean` - contains only one basic automation to give you a clean slate.
 
 <!-- WHAT IS HUBHAZARD -->
 
 ## What is [HubHazard][hubhazardcore]?
 
-[HubHazard][hubhazardcore] is a simple home-automation server leaning towards users with basic coding skills. You can
-write your automations using [Typescript][typescript]. Your automations can be as simple as a _button toggling a light_
-or as complex as _an automated co-op escape room controller_. All you need is a computer that supports Node.js 10+,
-for example a Raspberry Pi.
+[HubHazard][hubhazardcore] is a simple home-automation server leaning towards
+users with basic coding skills. You can write your automations using
+[Typescript][typescript]. Your automations can be as simple as a *button
+toggling a light* or as complex as *an automated co-op escape room controller*.
+All you need is a computer that supports Node.js 10+, for example a Raspberry Pi.
 
-HubHazard comes with an integration for [Hubitat Elevation hub][hubitat] (showed in automations examples).
+HubHazard comes with an integration for [Hubitat Elevation hub][hubitat]
+(showed in automations examples).
 
 <!-- INSTALLATION -->
 
 ## Installation
 
-1. Create a new repo out of this template by clicking _Use this template_ button.
+1. Create a new repo out of this template by clicking *Use this template* button.
 2. Clone your repo
 3. Install [Node.js v10 or newer][nodejsdownload] (even version number)
-4. Install [Nest.js CLI][nestjsinstallation]: `npm i -g @nestjs/cli` or `yarn global add @nestjs/cli`
+4. Install [Nest.js CLI][nestjsinstallation]: `npm i -g @nestjs/cli` or
+`yarn global add @nestjs/cli`
 5. Install dependencies: `npm install` or `yarn install`
 6. Run the dev server: `npm run start:dev` or `yarn run start:dev`
-7. Server should start and every 15 seconds you should see an output of the basic automation example:
+7. Server should start and every 15 seconds you should see an output of the
+basic automation example:
 
 ```
 [12:53:14 AM] Starting compilation in watch mode...
