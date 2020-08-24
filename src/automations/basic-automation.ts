@@ -13,7 +13,7 @@ export class BasicAutomation extends Automation {
   private counter = 0;
 
   // Handle the timer event
-  async handleEvent(): Promise<void> {
+  async handleEvent() {
     this.counter++;
     console.log(`Triggered the '${this.name}' ${this.counter} times.`);
   }
