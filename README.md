@@ -4,13 +4,6 @@ This is a basic template of the [HubHazard server][hubhazardcore] project. You
 can quickly create a new repo out of it and start having fun with
 [HubHazard][hubhazardcore].
 
-There are 2 versions of this template available on different branches:
-
-- `master` - contains a set of automations as examples to get you started faster.
-- `clean` - contains only one basic automation to give you a clean slate.
-
-<!-- WHAT IS HUBHAZARD -->
-
 ## What is [HubHazard][hubhazardcore]?
 
 [HubHazard][hubhazardcore] is a simple home-automation server leaning towards
@@ -19,10 +12,7 @@ users with basic coding skills. You can write your automations using
 toggling a light* or as complex as *an automated co-op escape room controller*.
 All you need is a computer that supports Node.js 10+, for example a Raspberry Pi.
 
-HubHazard comes with an integration for [Hubitat Elevation hub][hubitat]
-(showed in automations examples).
-
-<!-- INSTALLATION -->
+HubHazard comes with an integration for [Hubitat Elevation hub][hubitat].
 
 ## Installation
 
@@ -55,7 +45,10 @@ Triggered the 'Basic automation' 3 times.
 
 [**For more information about HubHazard and how to use it, visit the HubHazard - Core repository.**][hubhazardcore]
 
-<!-- CONTRIBUTING -->
+## Documentation
+
+Check out the [HubHazard wiki](https://github.com/hubhazard/core/wiki) for examples,
+guides and API documentation.
 
 ## Contributing
 
@@ -72,13 +65,9 @@ and create. Any contributions you make are **greatly appreciated**.
 
 See [`CONTRIBUTING.md`][contributingfile] from more information.
 
-<!-- LICENSE -->
-
 ## License
 
 Distributed under the MIT License. See [`LICENSE`][licensefile] for more information.
-
-<!-- CONTACT -->
 
 ## Contact
 
@@ -87,7 +76,6 @@ Beniamin (Xkonti) Dudek - [@xkonti][twitterxkonti] - online.xkonti@gmail.com
 Project Link: [https://github.com/hubhazard/hubhazard-basic-template][hubhazardtemplate]
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [licensefile]: ./LICENSE
 [contributingfile]: ./CONTRIBUTING.md
