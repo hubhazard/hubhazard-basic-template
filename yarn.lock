@@ -324,10 +324,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@hubhazard/core@^0.1.0-beta.5":
-  version "0.1.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@hubhazard/core/-/core-0.1.0-beta.5.tgz#c216c57c8ad470f2b3495136d2230a37d3cf18a2"
-  integrity sha512-6pZLP1a/8WCfo5MkXABdhZ0FXOKwoI5elIDfGa3QFGo8EdS+VhCLcWZp90SqBoBAAaKVcvzyz0zFexoIKny91w==
+"@hubhazard/core@^0.1.0-beta.6":
+  version "0.1.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@hubhazard/core/-/core-0.1.0-beta.6.tgz#6692545b7b39d1373a69534f56f65700a4f3d309"
+  integrity sha512-XJswvgrIT8Vc+KcJW01TbSCHXmVyHoiZrS2PKrawlH/5A2vZdmOR2/jttCJsyYKLN53LVSCbJbtg0K/cz4lMOw==
   dependencies:
     "@nestjs/common" "^7.4.2"
     "@nestjs/config" "^0.5.0"
