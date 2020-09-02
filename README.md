@@ -16,6 +16,10 @@ HubHazard comes with an integration for [Hubitat Elevation hub][hubitat].
 
 ## Installation
 
+You might want to check out the
+["Starting with HubHazard" article](https://dev.to/xkonti/starting-with-hubhazard-5ef2)
+for more detailed installation descripiton.
+
 1. Create a new repo out of this template by clicking *Use this template* button.
 2. Clone your repo
 3. Install [Node.js v10 or newer][nodejsdownload] (even version number)
