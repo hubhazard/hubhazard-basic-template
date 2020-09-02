@@ -1,4 +1,4 @@
-import { AutomationsModule, AutomationsService, TimerEventsModule } from '@hubhazard/core';
+import { AutomationsModule, TimerEventsModule } from '@hubhazard/core';
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { BasicAutomation } from './automations/basic-automation';
@@ -11,11 +11,4 @@ import { BasicAutomation } from './automations/basic-automation';
   ],
   providers: [BasicAutomation],
 })
-export class AppModule {
-  constructor(
-    private readonly automationsService: AutomationsService,
-    private readonly basicAutomation: BasicAutomation,
-  ) {
-    automationsService.registerAutomation(basicAutomation);
-  }
-}
+export class AppModule {}
