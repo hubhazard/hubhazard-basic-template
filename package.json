@@ -1,6 +1,6 @@
 {
   "name": "@hubhazard/hubhazard-basic-template",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "A basic template of HubHazard automation server project.",
   "author": "Beniamin Dudek <online.xkonti@gmail.com>",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "template"
   ],
   "dependencies": {
-    "@hubhazard/core": "^0.1.2",
+    "@hubhazard/core": "^0.1.4",
     "@nestjs/common": "^7.4.2",
     "@nestjs/config": "^0.5.0",
     "@nestjs/core": "^7.4.2",
